@@ -1,0 +1,376 @@
+﻿namespace PjMoneyChange
+{
+    partial class FrmCapital
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCapital));
+            this.btn_company = new System.Windows.Forms.Button();
+            this.lbl_subtitulo = new System.Windows.Forms.Label();
+            this.lbl_empresatitulo = new System.Windows.Forms.Label();
+            this.panel_foter = new System.Windows.Forms.Panel();
+            this.lbl_id = new System.Windows.Forms.Label();
+            this.btn_cancelar = new System.Windows.Forms.Button();
+            this.fondoContenido = new System.Windows.Forms.GroupBox();
+            this.txt_direccion2 = new System.Windows.Forms.TextBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.lbl_direc2 = new System.Windows.Forms.Label();
+            this.txt_razonsocial = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txt_direccion1 = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.txt_nombre = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lbl_direc1 = new System.Windows.Forms.Label();
+            this.lbl_Razon = new System.Windows.Forms.Label();
+            this.lbl_nombre = new System.Windows.Forms.Label();
+            this.panel_foter.SuspendLayout();
+            this.fondoContenido.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btn_company
+            // 
+            this.btn_company.BackColor = System.Drawing.Color.Transparent;
+            this.btn_company.BackgroundImage = global::PjMoneyChange.Properties.Resources.bbb;
+            this.btn_company.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_company.FlatAppearance.BorderSize = 0;
+            this.btn_company.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_company.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_company.Image = global::PjMoneyChange.Properties.Resources.empresa;
+            this.btn_company.Location = new System.Drawing.Point(10, 7);
+            this.btn_company.Name = "btn_company";
+            this.btn_company.Size = new System.Drawing.Size(84, 64);
+            this.btn_company.TabIndex = 167;
+            this.btn_company.UseVisualStyleBackColor = false;
+            // 
+            // lbl_subtitulo
+            // 
+            this.lbl_subtitulo.AutoSize = true;
+            this.lbl_subtitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_subtitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_subtitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lbl_subtitulo.Location = new System.Drawing.Point(104, 49);
+            this.lbl_subtitulo.Name = "lbl_subtitulo";
+            this.lbl_subtitulo.Size = new System.Drawing.Size(105, 13);
+            this.lbl_subtitulo.TabIndex = 166;
+            this.lbl_subtitulo.Text = "Existencia de Capital";
+            this.lbl_subtitulo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lbl_empresatitulo
+            // 
+            this.lbl_empresatitulo.AutoSize = true;
+            this.lbl_empresatitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_empresatitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_empresatitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lbl_empresatitulo.Location = new System.Drawing.Point(102, 16);
+            this.lbl_empresatitulo.Name = "lbl_empresatitulo";
+            this.lbl_empresatitulo.Size = new System.Drawing.Size(131, 25);
+            this.lbl_empresatitulo.TabIndex = 165;
+            this.lbl_empresatitulo.Text = "Capital Caja";
+            // 
+            // panel_foter
+            // 
+            this.panel_foter.BackColor = System.Drawing.Color.Transparent;
+            this.panel_foter.BackgroundImage = global::PjMoneyChange.Properties.Resources.panelfoter;
+            this.panel_foter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel_foter.Controls.Add(this.lbl_id);
+            this.panel_foter.Controls.Add(this.btn_cancelar);
+            this.panel_foter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel_foter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel_foter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel_foter.Location = new System.Drawing.Point(0, 459);
+            this.panel_foter.Name = "panel_foter";
+            this.panel_foter.Size = new System.Drawing.Size(664, 39);
+            this.panel_foter.TabIndex = 168;
+            // 
+            // lbl_id
+            // 
+            this.lbl_id.AutoSize = true;
+            this.lbl_id.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lbl_id.Location = new System.Drawing.Point(9, 7);
+            this.lbl_id.Name = "lbl_id";
+            this.lbl_id.Padding = new System.Windows.Forms.Padding(5);
+            this.lbl_id.Size = new System.Drawing.Size(10, 35);
+            this.lbl_id.TabIndex = 78;
+            // 
+            // btn_cancelar
+            // 
+            this.btn_cancelar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_cancelar.BackgroundImage = global::PjMoneyChange.Properties.Resources.btnex;
+            this.btn_cancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cancelar.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_cancelar.FlatAppearance.BorderSize = 0;
+            this.btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cancelar.ForeColor = System.Drawing.Color.Navy;
+            this.btn_cancelar.Image = global::PjMoneyChange.Properties.Resources.bttcancelar;
+            this.btn_cancelar.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btn_cancelar.Location = new System.Drawing.Point(207, 7);
+            this.btn_cancelar.Name = "btn_cancelar";
+            this.btn_cancelar.Size = new System.Drawing.Size(78, 25);
+            this.btn_cancelar.TabIndex = 66;
+            this.btn_cancelar.Text = "  Cerrar";
+            this.btn_cancelar.UseVisualStyleBackColor = false;
+            // 
+            // fondoContenido
+            // 
+            this.fondoContenido.BackColor = System.Drawing.Color.Transparent;
+            this.fondoContenido.Controls.Add(this.txt_direccion2);
+            this.fondoContenido.Controls.Add(this.pictureBox4);
+            this.fondoContenido.Controls.Add(this.lbl_direc2);
+            this.fondoContenido.Controls.Add(this.txt_razonsocial);
+            this.fondoContenido.Controls.Add(this.pictureBox1);
+            this.fondoContenido.Controls.Add(this.txt_direccion1);
+            this.fondoContenido.Controls.Add(this.pictureBox3);
+            this.fondoContenido.Controls.Add(this.txt_nombre);
+            this.fondoContenido.Controls.Add(this.pictureBox2);
+            this.fondoContenido.Controls.Add(this.lbl_direc1);
+            this.fondoContenido.Controls.Add(this.lbl_Razon);
+            this.fondoContenido.Controls.Add(this.lbl_nombre);
+            this.fondoContenido.Location = new System.Drawing.Point(71, 38);
+            this.fondoContenido.Name = "fondoContenido";
+            this.fondoContenido.Size = new System.Drawing.Size(522, 266);
+            this.fondoContenido.TabIndex = 169;
+            this.fondoContenido.TabStop = false;
+            this.fondoContenido.Text = "Compañia";
+            // 
+            // txt_direccion2
+            // 
+            this.txt_direccion2.BackColor = System.Drawing.Color.White;
+            this.txt_direccion2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_direccion2.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.txt_direccion2.ForeColor = System.Drawing.Color.SlateGray;
+            this.txt_direccion2.Location = new System.Drawing.Point(93, 182);
+            this.txt_direccion2.MaximumSize = new System.Drawing.Size(139, 27);
+            this.txt_direccion2.MaxLength = 40;
+            this.txt_direccion2.MinimumSize = new System.Drawing.Size(150, 28);
+            this.txt_direccion2.Name = "txt_direccion2";
+            this.txt_direccion2.Size = new System.Drawing.Size(150, 28);
+            this.txt_direccion2.TabIndex = 130;
+            this.txt_direccion2.Visible = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(92, 181);
+            this.pictureBox4.MaximumSize = new System.Drawing.Size(110, 21);
+            this.pictureBox4.MinimumSize = new System.Drawing.Size(152, 30);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(152, 30);
+            this.pictureBox4.TabIndex = 131;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Visible = false;
+            // 
+            // lbl_direc2
+            // 
+            this.lbl_direc2.AutoSize = true;
+            this.lbl_direc2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_direc2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_direc2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lbl_direc2.Location = new System.Drawing.Point(15, 187);
+            this.lbl_direc2.Name = "lbl_direc2";
+            this.lbl_direc2.Size = new System.Drawing.Size(69, 15);
+            this.lbl_direc2.TabIndex = 115;
+            this.lbl_direc2.Text = "Direccion 2";
+            // 
+            // txt_razonsocial
+            // 
+            this.txt_razonsocial.BackColor = System.Drawing.Color.White;
+            this.txt_razonsocial.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_razonsocial.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_razonsocial.ForeColor = System.Drawing.Color.SlateGray;
+            this.txt_razonsocial.Location = new System.Drawing.Point(93, 45);
+            this.txt_razonsocial.MaximumSize = new System.Drawing.Size(139, 27);
+            this.txt_razonsocial.MaxLength = 30;
+            this.txt_razonsocial.MinimumSize = new System.Drawing.Size(150, 28);
+            this.txt_razonsocial.Name = "txt_razonsocial";
+            this.txt_razonsocial.Size = new System.Drawing.Size(150, 28);
+            this.txt_razonsocial.TabIndex = 81;
+            this.txt_razonsocial.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(92, 44);
+            this.pictureBox1.MaximumSize = new System.Drawing.Size(110, 21);
+            this.pictureBox1.MinimumSize = new System.Drawing.Size(152, 30);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(152, 30);
+            this.pictureBox1.TabIndex = 82;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
+            // 
+            // txt_direccion1
+            // 
+            this.txt_direccion1.BackColor = System.Drawing.Color.White;
+            this.txt_direccion1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_direccion1.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.txt_direccion1.ForeColor = System.Drawing.Color.SlateGray;
+            this.txt_direccion1.Location = new System.Drawing.Point(93, 136);
+            this.txt_direccion1.MaximumSize = new System.Drawing.Size(139, 27);
+            this.txt_direccion1.MaxLength = 40;
+            this.txt_direccion1.MinimumSize = new System.Drawing.Size(150, 28);
+            this.txt_direccion1.Name = "txt_direccion1";
+            this.txt_direccion1.Size = new System.Drawing.Size(150, 28);
+            this.txt_direccion1.TabIndex = 109;
+            this.txt_direccion1.Visible = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(92, 135);
+            this.pictureBox3.MaximumSize = new System.Drawing.Size(110, 21);
+            this.pictureBox3.MinimumSize = new System.Drawing.Size(152, 30);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(152, 30);
+            this.pictureBox3.TabIndex = 110;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Visible = false;
+            // 
+            // txt_nombre
+            // 
+            this.txt_nombre.BackColor = System.Drawing.Color.White;
+            this.txt_nombre.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_nombre.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.txt_nombre.ForeColor = System.Drawing.Color.SlateGray;
+            this.txt_nombre.Location = new System.Drawing.Point(93, 90);
+            this.txt_nombre.MaximumSize = new System.Drawing.Size(139, 27);
+            this.txt_nombre.MaxLength = 30;
+            this.txt_nombre.MinimumSize = new System.Drawing.Size(150, 28);
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.Size = new System.Drawing.Size(150, 28);
+            this.txt_nombre.TabIndex = 107;
+            this.txt_nombre.Visible = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(92, 89);
+            this.pictureBox2.MaximumSize = new System.Drawing.Size(110, 21);
+            this.pictureBox2.MinimumSize = new System.Drawing.Size(152, 30);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(152, 30);
+            this.pictureBox2.TabIndex = 108;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
+            // 
+            // lbl_direc1
+            // 
+            this.lbl_direc1.AutoSize = true;
+            this.lbl_direc1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_direc1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_direc1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lbl_direc1.Location = new System.Drawing.Point(17, 141);
+            this.lbl_direc1.Name = "lbl_direc1";
+            this.lbl_direc1.Size = new System.Drawing.Size(69, 15);
+            this.lbl_direc1.TabIndex = 86;
+            this.lbl_direc1.Text = "Direccion 1";
+            // 
+            // lbl_Razon
+            // 
+            this.lbl_Razon.AutoSize = true;
+            this.lbl_Razon.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_Razon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Razon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lbl_Razon.Location = new System.Drawing.Point(6, 50);
+            this.lbl_Razon.Name = "lbl_Razon";
+            this.lbl_Razon.Size = new System.Drawing.Size(80, 15);
+            this.lbl_Razon.TabIndex = 80;
+            this.lbl_Razon.Text = "Razon Social";
+            // 
+            // lbl_nombre
+            // 
+            this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lbl_nombre.Location = new System.Drawing.Point(32, 95);
+            this.lbl_nombre.Name = "lbl_nombre";
+            this.lbl_nombre.Size = new System.Drawing.Size(52, 15);
+            this.lbl_nombre.TabIndex = 83;
+            this.lbl_nombre.Text = "Nombre";
+            // 
+            // FrmCapital
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::PjMoneyChange.Properties.Resources.fon2menu;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(664, 498);
+            this.Controls.Add(this.fondoContenido);
+            this.Controls.Add(this.panel_foter);
+            this.Controls.Add(this.btn_company);
+            this.Controls.Add(this.lbl_subtitulo);
+            this.Controls.Add(this.lbl_empresatitulo);
+            this.Name = "FrmCapital";
+            this.Text = "FrmCapital";
+            this.panel_foter.ResumeLayout(false);
+            this.panel_foter.PerformLayout();
+            this.fondoContenido.ResumeLayout(false);
+            this.fondoContenido.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btn_company;
+        private System.Windows.Forms.Label lbl_subtitulo;
+        private System.Windows.Forms.Label lbl_empresatitulo;
+        private System.Windows.Forms.Panel panel_foter;
+        private System.Windows.Forms.Label lbl_id;
+        private System.Windows.Forms.Button btn_cancelar;
+        private System.Windows.Forms.GroupBox fondoContenido;
+        private System.Windows.Forms.TextBox txt_direccion2;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label lbl_direc2;
+        private System.Windows.Forms.TextBox txt_razonsocial;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txt_direccion1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.TextBox txt_nombre;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label lbl_direc1;
+        private System.Windows.Forms.Label lbl_Razon;
+        private System.Windows.Forms.Label lbl_nombre;
+    }
+}
